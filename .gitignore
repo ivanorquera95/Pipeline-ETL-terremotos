@@ -1,0 +1,19 @@
+# Entorno virtual
+venv/
+.env
+ 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+ 
+# Datos generados por el pipeline (se regeneran en cada corrida)
+data/*.json
+data/*.csv
+ 
+# Logs y plugins de Airflow (se generan solos al levantar el stack)
+logs/
+plugins/
+ 
+# Archivos temporales
+*.tmp
