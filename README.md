@@ -2,7 +2,6 @@
 
 Pipeline de datos end-to-end: extrae eventos sísmicos en tiempo real desde la API pública del **USGS**, los limpia con **Python/pandas**, los carga en **PostgreSQL**, y orquesta todo el proceso con **Apache Airflow**. Incluye un dashboard interactivo en **Power BI** conectado en vivo (DirectQuery).
 
-Proyecto construido para tener evidencia concreta y defendible de SQL aplicado, pipelines de datos y orquestación — no solo cursos y certificaciones.
 
 ## Dashboard
 
